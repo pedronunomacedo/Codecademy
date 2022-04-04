@@ -1,0 +1,46 @@
+
+
+body > #heading {
+    /* Title */
+    font-family: Helvetica;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: khaki;
+
+    /* Background image */ 
+    /* I don't know to zoom in the background image and position in the header */
+    display: inline-block;
+    overflow: hidden;
+}
+
+body > #heading > h1 {
+    background-image: url("images/image1.png");
+    width: auto;
+    font-size: 100px;
+}
+
+body > section > h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+body > #brushes > h2 {
+    background-color: mediumspringgreen;
+}
+
+body > #frames > h2 {
+    background-color: lightcoral;
+}
+
+body > #paint > h2 {
+    background-color: skyblue;
+}
+
+body > section > text > span {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
