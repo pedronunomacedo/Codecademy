@@ -1,0 +1,200 @@
+* {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+
+    /*reset of browser's default values*/
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 22px;
+}
+
+
+/* Header section */
+
+header {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    display: inline-block;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+header > img {
+    left: 0;
+    margin-left: 10px;
+    height: 50px;
+}
+
+header > nav {
+    position: absolute;
+    right: 0;
+}
+
+header > nav a {
+    margin-right: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+/* Main content */
+
+main {
+    position: relative;
+    top: 70px;
+}
+
+
+/* Mission section */
+
+#mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url("images/Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+}
+
+#mission_headers {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    padding: 10px;
+}
+
+#mission_headers h2 {
+    padding-bottom: 10px;
+}
+
+
+/* Featured_tea section */
+
+#featured_tea > #container_titles > h2 {
+    margin-top: 60px;
+    margin-bottom: 14px;
+}
+
+#featured_tea > #container_titles > h4 {
+    margin-bottom: 23px;
+}
+
+#featured_tea > #featured_tea_images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    width: 300px;
+    height: 67%;
+    overflow: hidden;
+    margin: 1.5%;
+}
+
+figure img {
+    width: 300px;
+    height: 200px;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+#featured_tea > #featured_tea_images > figure > figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/* Locations section */
+
+#locations {
+    height: 500px;
+    width: 90%;
+    background-image: url("images/Locations.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: auto;
+    position: relative;
+}
+
+#locations_header h2 {
+    position: absolute;
+    left: 43%;
+    top: 87.5px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#locations_container {
+    position: relative;
+}
+
+
+
+
+
+.address {
+    width: 300px;
+    height: 290px;
+    position: absolute;
+    top: 200px;
+    right: 90px;
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    top: 28.5%;
+}
+
+.address h3,
+.address p {
+    
+}
+
+#downtown {
+    left: 75px;
+}
+
+#east_bayside {
+    left: 415px;
+}
+
+#oakdale {
+    left: 755px;
+}
+
+
+
+
+
+footer {
+    position: relative;
+    height: 200px;
+    top: 83px;
+}
+
+footer > h5 {
+    margin-top: 45px;
+}
+
+footer > h6 {
+    margin: 20px;
+    float: left;
+}
