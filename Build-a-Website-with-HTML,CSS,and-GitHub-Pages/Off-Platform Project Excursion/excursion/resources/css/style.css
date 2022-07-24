@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+
+header {
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+}
+
+#cellphone_video {
+    text-align: center;
+}
+
+#personal_travel_guide h2 {
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+#personal_travel_guide h6 {
+    font-family: Verdana;
+    font-weight: 100;
+    font-size: 21px;
+    color: gray;
+}
+
+#div_images {
+    margin-bottom: -15px;
+}
+
+footer {
+    color: gray;
+    text-align: right;
+    font-size: 21px;
+    margin-right: 2px;
+}
