@@ -1,0 +1,539 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    min-width: 8%;
+}
+
+header {
+    height: 64px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+header > * {
+    margin: 8% auto ;
+}
+
+header > img {
+    max-height: 50px;
+}
+
+#ic-logo {
+    margin-left: 24px;
+    margin-right: 0px;
+}
+
+#ic-colmar-academy {
+    margin-left: 0px;
+}
+
+#ic-on-campus,
+#ic-online,
+#ic-login {
+    display: none;
+}
+
+#ic-logo,
+#ic-colmar-academy {
+    visibility: visible;
+}
+
+#menu {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#menu div {
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#menu div:first-child {
+    margin-right: 8px;
+}
+
+#menu div:last-child {
+    margin-left: 8px;
+    margin-right: 24px;
+}
+
+
+#intro_section {
+    width: 100%;
+    background-color: rgb(211, 206, 206);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#intro_section > img {
+    width: 60%;
+    height: auto;
+    padding: 32px 24px;
+}
+
+#intro_content {
+    padding-right: 120px;
+}
+
+#intro_content > h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:rgb(69, 66, 66);
+    font-size: 35px;
+}
+
+#intro_content > h4 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    color: rgb(102, 100, 100)
+}
+
+#intro_content > button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(155, 155, 155);
+}
+
+#news_section {
+    margin-right: 16px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.news > img {
+    height: auto;
+}
+
+.news_content {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.news div:last-child {
+    margin-bottom: 32px;
+}
+
+.news h2, 
+.news p,
+.news a {
+    margin-left: 16px;
+}
+
+.news h2 {
+    color: rgb(74, 74, 74);
+}
+
+.news p {
+    color: rgb(77, 77, 77)
+}
+
+.news a {
+    color: rgb(73, 144, 226);
+}
+
+
+#keep_practicing {
+    border-right: 1px solid rgb(233 234 234);
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 0px;
+    width: 60%;
+}
+
+#other_news {
+    width: 40%;
+}
+
+#keep_practicing > img {
+    width: 100%;
+}
+
+
+#other_news {
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#other_news > div:not(:first-child) {
+    border-top: 1px solid rgb(233 234 234);
+    border-bottom: 1px solid rgb(233 234 234);
+    margin-bottom: 1px; 
+    width: 100%;
+}
+
+#other_news >  :first-child {
+    margin-bottom: 1px;
+    border-bottom: 1px solid rgb(233 234 234);
+}
+
+#other_news > div:last-child {
+    border-bottom: 0px;
+}
+
+.news {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.news:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.news > img {
+    height: auto;
+    width: 35%;
+}
+
+.news_content {
+    width: 65%;
+    justify-content: center;
+}
+
+.news_content > h2 {
+    margin-bottom: 0px;
+}
+
+#learn_news {
+    display: inline-block;
+    width: 100%;
+}
+
+#learn_news > * {
+    display: flex;
+    flex-direction: column wrap;
+}
+
+#start_learning {
+    padding: 32px 56px;
+    background-color: rgb(234, 235, 236);
+}
+
+#start_learning > h1 {
+    font-size: 35px;
+    color: rgb(73, 74, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.courses_row {
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+    height: auto;
+}
+
+.courses_row > div {
+    background-color: white;
+    margin: 16px;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+}
+
+#start_learning div > h2 {
+    color: rgb(73, 74, 74);
+}
+
+#learn_news > img {
+    height: auto;
+    width: 100%;
+}
+
+.start_learning_content {
+    width: 100%;
+    font-weight: 0;
+    padding: 0px 16px 24px 16px;
+    word-wrap: break-word;
+}
+
+
+
+#thesis_exhibit {
+    padding: 32px 0px 32px 24px;
+    border-bottom: 1px solid rgb(233 234 234);
+}
+
+#thesis_exhibit > :not(:first-child) {
+    display: flex;
+    flex-direction: row;
+}
+
+#thesis_exhibit > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(74, 74, 74);
+}
+
+
+#thesis_video {
+    width: 60%;
+    padding-right: 24px;
+}
+
+#thesis_video > video {
+    width: 100%;
+    height: auto;
+    padding-bottom: 24px;
+}
+
+#thesis_video > h2 {
+    padding-bottom: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(74, 74, 74);
+}
+
+#thesis_video > p {
+    margin-top: 0px;
+    color: rgb(126, 126, 126);
+}
+
+#thesis_exhibit_content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+#thesis_exhibit_content {
+    width: 40%;
+}
+
+.thesis_news {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+}
+
+.thesis_news > img {
+    width: 35%;
+    height: auto;
+}
+
+.thesis_news:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.thesis_news_content {
+    margin-left: 16px;
+}
+
+.thesis_news_content > h2 {
+    color: rgb(74, 74, 74);
+}
+
+.thesis_news_content > p {
+    color: rgb(121, 121, 122);
+}
+
+
+footer {
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color: rgb(123, 123, 123);
+    align-items: center;
+}
+
+footer > div {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer > div p {
+    margin: 0px 16px;
+}
+
+
+@media only screen and (min-width: 901px) {
+    #intro_content > button:hover {
+        background-color: rgb(74, 74, 74);
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    #ic-logo,
+    #ic-on-campus,
+    #ic-online,
+    #ic-login {
+        display: inline-block;
+        visibility: visible;
+        margin: 8%;
+    }
+
+    #menu div,
+    #ic-colmar-academy {
+        display: none;
+    }
+
+    #intro_section {
+        flex-direction: column;
+    }
+
+    #intro_section img {
+        width: 100%;
+        padding: 0px;
+    }
+
+    #intro_content {
+        padding: 32px 16px;
+    }
+
+    #intro_content > button {
+        width: 100%;
+        border: none;
+        color: white;
+        background-color: rgb(155, 155, 155);
+    }
+
+
+    .news {
+        margin-bottom: 32px;
+    }
+
+    #news_section {
+        margin: 16px;
+        border-bottom: 1px solid rgb(233 234 234);
+        display: flex;
+        flex-direction: column;
+    }
+
+    #keep_practicing {
+        display: none;
+    }
+
+    .news img {
+        width: 100%;
+    }
+
+    #other_news {
+        width: 100%;
+        padding: 0px;
+        
+    }
+
+    #other_news div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #other_news > div:not(:first-child) {
+        padding: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+        margin-bottom: 0px; 
+    }
+    
+    #other_news > :first-child {
+        padding: 0px;
+        margin-bottom: 0px;
+        border-bottom: 0px;
+    }
+
+    .news:hover {
+        background-color: white;
+    }
+
+    #start_learning {
+        padding: 32px 16px;
+        background-color: white;
+        border-bottom: 1px solid rgb(233 234 234);
+        padding-bottom: 0px;
+    }
+
+    #start_learning > h1 {
+        margin-bottom: 16px;
+    }
+
+    #start_learning > div {
+        width: 80%;
+    }
+
+    .courses_row {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .start_learning_content {
+        position: relative;
+        width: 100%;
+    }
+
+    .start_learning_content > h2 {
+        padding: 16px 0px 24px 16px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .start_learning_content h2 {
+        width: 100%;
+        background-color: rgb(211, 206, 206);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .start_learning_content > p {
+        display: none;
+    }
+
+    #thesis_exhibit {
+        padding: 0px;
+        border-bottom: 0px;
+    }
+
+    #thesis_exhibit > h1 {
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+    #thesis_exhibit_content {
+        display: none;
+    }
+
+    #thesis_video {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    #thesis_video > h2,
+    #thesis_video > p {
+        display: none;
+    }
+
+    footer > div {
+        display: none;
+    }
+}
