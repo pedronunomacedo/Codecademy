@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #fcfcfc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#subreddits {
+  display: grid;
+  flex-direction: column wrap;
+  float: right;
+  width: calc(100% / 5);
+  padding: 24px 16px 24px 24px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+#subreddits > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+#subreddits_title {
+  color: rgb(255, 111, 0);
+}

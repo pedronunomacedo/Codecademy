@@ -1,0 +1,5 @@
+.subreddit_topic:hover {
+    background-color: rgb(231, 228, 228) !important;
+    border-radius: 4px;
+    cursor: pointer;
+}

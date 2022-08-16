@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+#login_button {
+    margin-right: 10px;
+}
+
+header button:hover {
+    background-color: rgb(231, 228, 228) !important;
+    border-radius: 4px;
+    cursor: pointer;
+}
